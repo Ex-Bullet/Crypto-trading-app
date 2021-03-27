@@ -14,11 +14,11 @@ import {
 } from "./HeroElements";
 
 const HeroSection = () => {
-const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false);
 
-const onHover = () => {
+  const onHover = () => {
     setHover(!hover);
-};
+  };
 
   return (
     <HeroContainer>
@@ -26,11 +26,8 @@ const onHover = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
-        <HeroP>
-          Sign up for a new account today and receive $25 in credit towards your
-          next payment.
-        </HeroP>
+        <HeroH1>Do more with your Crypto</HeroH1>
+        <HeroP>Manage and learn how to use your crypto with Cryptual.</HeroP>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
