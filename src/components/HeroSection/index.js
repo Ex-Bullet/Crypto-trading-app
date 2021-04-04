@@ -27,9 +27,14 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Do more with your Crypto</HeroH1>
-        <HeroP>Manage and learn how to use your crypto with Cryptual.</HeroP>
+        <HeroP>Manage and learn how to use your crypto with Cryptual</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="signup"
+            onMouseEntFer={onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
