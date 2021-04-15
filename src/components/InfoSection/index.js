@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ButtonElement";
-import Image from "../../images/payment.svg";
 import {
   InfoContainer,
   InfoWrapper,
@@ -13,7 +12,7 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  Img,
+  Img
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -61,7 +60,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={Image} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
