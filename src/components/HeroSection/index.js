@@ -21,7 +21,7 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
@@ -29,12 +29,18 @@ const HeroSection = () => {
         <HeroH1>Do more with your Crypto</HeroH1>
         <HeroP>Manage and learn how to use your crypto with Cryptual</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup"
+          <Button
+            to="signup"
             onMouseEntFer={onHover}
             onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            >
+            primary="true"
+            dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
