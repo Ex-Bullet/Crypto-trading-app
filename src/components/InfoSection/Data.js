@@ -44,7 +44,7 @@ export const homeObjThree = {
   description:
     'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Start now',
-  imgStart: false,
+  imgStart: true,
   img: require('../../images/svg-3.svg').default,
   alt: 'Premium wallet',
   dark: false,
