@@ -1,5 +1,5 @@
 import React from "react";
-import {animateScroll as scroll} from 'react-scroll';
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
@@ -13,15 +13,15 @@ import {
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
 } from "./FooterElements";
 
-import {FaFacebook, FaInstagram, FaTwitter, FaSnapchat } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTwitter, FaSnapchat } from "react-icons/fa";
 
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
-  }
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -60,9 +60,11 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/" onClick={toggleHome}>Cryptual</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Cryptual
+            </SocialLogo>
             <WebsiteRights>
-            Cryptual © {new Date().getFullYear()} All rights reserved.
+              Cryptual © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">

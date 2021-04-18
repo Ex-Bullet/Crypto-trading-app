@@ -60,7 +60,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #F88F17;
+    color: #f88f17;
     transition: 0.3s ease-out;
   }
 `;
@@ -97,15 +97,15 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
-`
+`;
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 240px;
-`
+`;
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-`
+`;

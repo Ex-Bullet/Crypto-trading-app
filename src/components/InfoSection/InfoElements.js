@@ -32,7 +32,7 @@ export const InfoRow = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1 col2' 'col1 col1'` : `'col2 col2' 'col2 col2'`};
-      display: block;
+    display: block;
   }
 `;
 
@@ -55,7 +55,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #F88F17;
+  color: #f88f17;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
