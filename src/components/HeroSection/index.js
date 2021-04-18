@@ -26,7 +26,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Do more with your Crypto</HeroH1>
+        <HeroH1>Decentralized Trading Protocol</HeroH1>
         <HeroP>Manage and learn how to use your crypto with Cryptual</HeroP>
         <HeroBtnWrapper>
           <Button

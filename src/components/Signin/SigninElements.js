@@ -10,10 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
-    108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
+  background: #fff;
   );
 `;
 
@@ -31,7 +28,7 @@ export const Icon = styled(Link)`
   margin: 50px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   font-size: 32px;
 
@@ -90,7 +87,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: #F88F17;
   padding: 16px 0;
   border: none;
   border-radius: 4px;

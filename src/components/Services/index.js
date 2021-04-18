@@ -19,22 +19,22 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce expenses</ServicesH2>
+          <ServicesH2>Reliable, tamper-proof network</ServicesH2>
           <ServicesP>
             We help reduce your fees and increase your overall revenue.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual offices</ServicesH2>
+          <ServicesH2>Fast and confidential with low fees</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world
+          Use a digital wallet to store, send or spend your coins from anywhere.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
           <ServicesH2>Premium benefits</ServicesH2>
-          <ServicesP>Unlock our special membership card</ServicesP>
+          <ServicesP>Can be purchased or traded for other currencies on an exchange.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
